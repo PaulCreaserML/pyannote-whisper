@@ -22,7 +22,7 @@ Transcription can also be performed within Python:
 import whisper
 from pyannote.audio import Pipeline
 from pyannote_whisper.utils import diarize_text
-pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization",
+pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1",
                                     use_auth_token="your/token")
 model = whisper.load_model("tiny.en")
 asr_result = model.transcribe("data/afjiv.wav")
