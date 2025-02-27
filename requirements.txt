@@ -5,4 +5,4 @@ torchvision
 openai-whisper
 pyannote.audio
 soundfile
-speechbrain==0.5.16 
+speechbrain
