@@ -27,7 +27,7 @@ def merge_cache(text_cache):
     return Segment(start, end), spk, sentence
 
 
-PUNC_SENT_END = ['.', '?', '!']
+PUNC_SENT_END = ['.', '?', '!', '。','、',':',';','？']
 
 
 def merge_sentence(spk_text):
